@@ -169,5 +169,10 @@ body {
     .course{
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .main{
+        width: 80%;
+    }
+    .late{
+        width: 80%;
+    }
 }
