@@ -178,4 +178,7 @@ body {
     .logo img{
         width: 20%;
     }
+    .logo{
+        gap: 5px;
+    }
 }
