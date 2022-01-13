@@ -1,0 +1,170 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background-color: rgb(226, 220, 220);
+}
+
+.header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h2 {
+    color: white;
+}
+
+.logo img {
+    width: 8%;
+}
+
+.link ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.link ul li a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    margin: 5% auto;
+    padding: 2% 2%;
+    gap: 20px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px;
+}
+
+.main h2 {
+    color: royalblue;
+}
+
+.player-main img {
+    width: 20%;
+}
+
+.main .player-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.player-main .player {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.player-main hr {
+    width: 250%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.main-blog .image {
+    width: 50%;
+}
+
+.main-blog .text {
+    width: 50%;
+}
+
+.main-blog img {
+    width: 100%;
+
+}
+
+.main-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.author {
+    color: rgb(0, 78, 141);
+}
+.late{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5% auto;
+    padding: 2% 2%;
+    background-color: gray;
+    border-radius: 10px;
+}
+.course-image img{
+    width: 100%;
+}
+.star-time{
+    display: flex;
+    justify-content: space-between;
+}
+.course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+.course-name{
+    margin: 0% 1%;
+    
+}
+.course-text{
+    padding-top: 5%;
+}
+.time i{
+    color: red;
+}
+.fa-clock {
+    background-color: rgba(255, 0, 0, 0.26);
+    border-radius: 5px;
+}
+.fa-star{
+    fill: yellow;
+}
+@media only screen and (max-width: 688px) { 
+    .main .player-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-blog{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog{
+        justify-content: center;
+        align-items: center;
+    }
+    .course{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
