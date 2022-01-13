@@ -147,6 +147,13 @@ body {
 .fa-star{
     fill: yellow;
 }
+/* media query!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!MOBILE!!!!!!!!!!!!
+
+
+
+*/
 @media only screen and (max-width: 688px) { 
     .main .player-main{
         grid-template-columns: repeat(1, 1fr);
@@ -158,10 +165,6 @@ body {
     }
     .main-blog{
         grid-template-columns: repeat(1, 1fr);
-    }
-    .blog{
-        justify-content: center;
-        align-items: center;
     }
     .course{
         grid-template-columns: repeat(1, 1fr);
